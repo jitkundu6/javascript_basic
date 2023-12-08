@@ -48,3 +48,10 @@ console.log(typeof name1);
 console.log(typeof name2);
 
 
+
+// Dynamic Typing
+
+let x = 'SK'; // String Literal
+console.log("typeof x = ", typeof x);
+x = 30; // Number Literal
+console.log("typeof x = ", typeof x);
