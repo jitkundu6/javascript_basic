@@ -50,8 +50,31 @@ console.log(typeof name2);
 
 
 // Dynamic Typing
-
 let x = 'SK'; // String Literal
 console.log("typeof x = ", typeof x);
 x = 30; // Number Literal
 console.log("typeof x = ", typeof x);
+
+
+// Reference Types: Object, Array, Function
+
+// Object:
+let person = {
+    name: 'SK',
+    age: 30,
+}
+
+console.log("person = ", person);
+console.log("typeof person = ", typeof person);
+
+// Dot notation
+person.name = "S"
+console.log("person name = ", person.name);
+
+// Bracket notation
+person['name'] = "S1"
+console.log("person name = ", person['name']);
+
+let selection = 'name'
+person[selection] = "S2"
+console.log("person name = ", person['name']);
