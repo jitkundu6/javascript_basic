@@ -98,3 +98,23 @@ console.log("colors length = ", colors.length);
 
 console.log("colors[2] = ", colors[2]);
 console.log("typeof colors[2] = ", typeof colors[2]);
+
+
+// Functions:
+function greet(name) {
+    console.log('Hello! ' + name);
+    console.log("typeof name = ", typeof name);
+}
+greet('friends');
+greet(30);
+
+
+function greet_people(name1, name2) {
+    console.log("Hi! " + name1 + ' ' + name2);
+}
+greet_people('Subhajit', 'Kundu')
+
+function square(n) {
+    return n * n;
+}
+console.log('square(5) =' + square(5));
