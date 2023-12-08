@@ -78,3 +78,23 @@ console.log("person name = ", person['name']);
 let selection = 'name'
 person[selection] = "S2"
 console.log("person name = ", person['name']);
+
+
+// Array: is a data structure in JS to store a list of heterogeneous items
+let colors = ['red', 5];    // [];
+console.log("colors = ", colors);
+console.log("typeof colors = ", typeof colors);
+console.log("colors[0] = ", colors[0]);
+console.log("typeof colors[0] = ", typeof colors[0]);
+console.log("colors[1] = ", colors[1]);
+console.log("typeof colors[1] = ", typeof colors[1]);
+
+colors[3] = 5.5
+console.log("colors[3] = ", colors[3]);
+console.log("typeof colors[3] = ", typeof colors[3]);
+
+console.log("colors = ", colors); // Length of Array is Dynamic 
+console.log("colors length = ", colors.length); 
+
+console.log("colors[2] = ", colors[2]);
+console.log("typeof colors[2] = ", typeof colors[2]);
