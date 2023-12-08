@@ -28,3 +28,23 @@ const r = 0.3;
 p = 65.5
 console.log(r);
 console.log(p);
+
+
+// Primitive / Value Types  & Non-Primitive / Reference Types
+
+// Primitive Types: String, Number, Boolean, undefined, null & 
+// symbol (from Es6)
+
+let n = 'SK'; // String Literal
+let age = 30; // Number Literal
+let isApproved = false; // Boolean Literal
+let name1; // undefined
+let name2 = null; // null object
+
+console.log(typeof n);
+console.log(typeof age);
+console.log(typeof isApproved);
+console.log(typeof name1);
+console.log(typeof name2);
+
+
