@@ -19,3 +19,12 @@ console.log(name);
 //let firstName = 'Subhajit', lastName = 'Kundu';
 let firstName = 'Subhajit';
 let lastName = 'Kundu';
+
+
+// CONSTANTS:
+let p = 55.5;
+const r = 0.3;
+// r = 0.5;  // Constant can't be reassigned
+p = 65.5
+console.log(r);
+console.log(p);
